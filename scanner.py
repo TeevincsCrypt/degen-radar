@@ -44,4 +44,4 @@ def scan():
 while True:
 
     scan()
-    time.sleep(60)
+    time.sleep(10)
