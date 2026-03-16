@@ -8,10 +8,10 @@ keywords = ["AI dog", "Trump coin", "Elon pet"]
 
 def send_alert(msg):
 
-    url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
+    url = f"https://api.telegram.org/bot8620436807:AAFki28rQ4gGsx8EXVgvon7AVJZRdU-mMmI/sendMessage"
 
     payload = {
-        "chat_id": CHAT_ID,
+        "chat_id": 7939533113,
         "text": msg
     }
 
