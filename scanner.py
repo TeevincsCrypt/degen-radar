@@ -6,14 +6,15 @@ CHAT_ID = "7939533113"
 
 def send(msg):
 
-    url = f"https://api.telegram.org/bot8620436807:AAFki28rQ4gGsx8EXVgvon7AVJZRdU-mMmI/sendMessage"
+    url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
 
     payload = {
-        "chat_id": 7939533113,
+        "chat_id": CHAT_ID,
         "text": msg
     }
 
     requests.post(url, json=payload)
+
 
 def scan():
 
@@ -43,5 +44,4 @@ def scan():
 while True:
 
     scan()
-
     time.sleep(60)
